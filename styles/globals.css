@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url('../public/fonts/ttf/IranNastaliq.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'persian-kereshmeh';
+  src: url('../public/fonts/ttf/persian-kereshmeh.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suls';
+  src: url('../public/fonts/ttf/Suls.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PERSIAN-ENTEZAR';
+  src: url('../public/fonts/ttf/PERSIAN-ENTEZAR.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Far_Nazanin';
+  src: url('../public/fonts/ttf/Far_Nazanin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Far_khodkar';
+  src: url('../public/fonts/ttf/Far_khodkar.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'danstevis';
+  src: url('../public/fonts/ttf/danstevis.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'B Mitra_0';
+  src: url('../public/fonts/ttf/B Mitra_0.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Parastoo-Bold';
+  src: url('../public/fonts/woff/Parastoo-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Parastoo';
+  src: url('../public/fonts/woff/Parastoo.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Parastoo-Bold';
+  src: url('../public/fonts/woff2/Parastoo-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Parastoo';
+  src: url('../public/fonts/woff2/Parastoo.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GoftehWeb-Heavy';
+  src: url('../public/fonts/woff2/GoftehWeb-Heavy.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Doran-Thin';
+  src: url('../public/fonts/woff2/Doran-Thin.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Doran-Bold';
+  src: url('../public/fonts/woff2/Doran-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Doran-Light';
+  src: url('../public/fonts/woff2/Doran-Light.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KalamehWeb_Regular';
+  src: url('../public/fonts/woff2/KalamehWeb_Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KalamehWeb_Bold';
+  src: url('../public/fonts/woff2/KalamehWeb_Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KalamehWeb_Black';
+  src: url('../public/fonts/woff2/KalamehWeb_Black.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PeydaWeb-Black';
+  src: url('../public/fonts/woff2/PeydaWeb-Black.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PeydaWeb-Bold';
+  src: url('../public/fonts/woff2/PeydaWeb-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PeydaWeb-Medium';
+  src: url('../public/fonts/woff2/PeydaWeb-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+
+
+
+
+
+body {
+  @apply bg-background text-text;
+  direction: rtl;
+  font-family: 'IRANSans', sans-serif; /* استفاده از یک فونت فارسی مناسب */
+}
+
+html {
+  direction: rtl;
+}
+
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer button {
+  @apply text-gray-600 hover:text-primary transition-colors duration-300;
+}
+
+button:focus {
+  outline: none;
+}
+
+.event-day {
+  background-color: #8BC34A !important; /* رنگ پس‌زمینه برای روزهای دارای مراسم */
+  color: white !important; /* رنگ متن سفید */
+  border-radius: 50% !important; /* گرد کردن روز */
+}
+
+
+.post-creator {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.tabs button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #007bff;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-panel,
+.center-panel,
+.right-panel {
+  width: 30%;
+  padding: 10px;
+}
+
+.file-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.file-item {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.profile-selection,
+.post-editor {
+  margin-bottom: 20px;
+}
+
+.preview-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.send-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-send {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

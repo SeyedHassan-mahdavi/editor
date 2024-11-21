@@ -1,0 +1,30 @@
+/* Custom styles for the Persian calendar */
+.custom-calendar {
+    background-color: #0067a3; /* Background color similar to the provided image */
+    color: white; /* Text color white */
+    /* padding: 1rem; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-calendar .rmdp-panel {
+    background-color: #0067a3;
+    color: white;
+  }
+  
+  .custom-calendar .rmdp-day-picker .rmdp-day {
+    color: white;
+  }
+  
+  .custom-calendar .rmdp-day-picker .rmdp-day.rmdp-today {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .custom-calendar .rmdp-day-picker .rmdp-day.rmdp-week-day {
+    color: #ff9800;
+  }
+  
+  .custom-calendar .rmdp-day-picker .rmdp-day.rmdp-holiday {
+    color: red;
+  }
+  

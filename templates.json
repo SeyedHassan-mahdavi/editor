@@ -1,0 +1,61 @@
+[
+    {
+      "id": "template1",
+      "name": "پوستر فاطمیه 1",
+      "thumbnail": "/Etela_Rasani_Fatemie_93113000.jpg",
+      "categories": ["فاطمیه"],
+      "size": { "width": 1080, "height": 1920 },
+      "dpi": 96,
+      "layers": [
+        { "id": "1", "type": "image", "x": 0, "y": 0, "src": "/Etela_Rasani_Fatemie_9311300.jpg", "locked": true, "hidden": false },
+        { "id": "3", "type": "text", "x": 790, "y": 615, "text": "سخنران", "fill": "#ffffff","fontSize": 60,"fontFamily": "IranNastaliq"},
+        { "id": "4", "type": "text", "x": 370, "y": 1167, "text": "مداح","fontSize": 60 ,"fill": "#ffffff","fontFamily": "IranNastaliq" },
+        { "id": "5", "type": "text", "x": 290, "y": 1398, "text": "زمان" ,"fontSize": 60 ,"fill": "#ffffff","fontFamily": "IranNastaliq"},
+        { "id": "6", "type": "text", "x": 331, "y": 1604, "text": "مکان","fontSize": 60 ,"fill": "#ffffff","fontFamily": "IranNastaliq"}
+      ],
+      "requirePreFill": true,
+      "preFillFields": [
+        { "field": "سخنران", "label": "سخنران" },
+        { "field": "مداح", "label": "مداح" },
+        { "field": "زمان", "label": "زمان" },
+        { "field": "مکان", "label": "مکان" }
+      ]
+    
+    },
+    {
+      "id": "template11",
+      "name": "Template 1",
+      "thumbnail": "/Capture1.JPG",
+      "categories": ["Category 1", "Category 2"],
+      "size": { "width": 1080, "height": 1080 },
+      "dpi": 96,
+      "layers": [
+        { "id": "1", "type": "image", "x": 0, "y": 0, "src": "/Capture1.JPG", "locked": false, "hidden": false },
+        { "id": "3", "type": "text", "x": 100, "y": 150, "text": "Speaker Name", "fill": "#ff0000", "locked": false, "hidden": false, "fontSize": 30 },
+        { "id": "4", "type": "text", "x": 100, "y": 200, "text": "Event Date", "fill": "#0000ff", "locked": false, "hidden": false, "fontSize": 25 }
+      ],
+      "requirePreFill": false,
+      "preFillFields": [
+        { "field": "speaker", "label": "Speaker Name" },
+        { "field": "eventDate", "label": "Event Date" }
+      ]
+    },
+    {
+      "id": "template2",
+      "name": "Template 2",
+      "thumbnail": "/template2-thumbnail.jpg",
+      "categories": ["Category 1"],
+      "size": { "width": 1080, "height": 1920 },
+      "dpi": 96,
+      "layers": [
+        { "id": "3", "type": "text", "x": 100, "y": 150, "text": "Speaker Name", "fill": "#ff0000", "locked": false, "hidden": false, "fontSize": 30 },
+        { "id": "4", "type": "text", "x": 100, "y": 200, "text": "Event Date", "fill": "#0000ff", "locked": false, "hidden": false, "fontSize": 25 }
+      ],
+      "requirePreFill": true,
+      "preFillFields": [
+        { "field": "speaker", "label": "Speaker Name" },
+        { "field": "eventDate", "label": "Event Date" }
+      ]
+    }
+  ]
+  
